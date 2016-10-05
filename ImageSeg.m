@@ -1,7 +1,7 @@
 close all;
 clear all;
 
-img = double(imread('10.png'));
+img = double(imread('coins.jpg'));
 
 L = 256;
 
@@ -94,37 +94,4 @@ for itr = 1:100,
 end
 
 figure(7),imagesc(P>=0.5),colormap(gray),axis image; 
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    
+ 
