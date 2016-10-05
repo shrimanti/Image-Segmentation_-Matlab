@@ -1,7 +1,7 @@
 close all;
 clear all;
 
-img = double(imread('coins.jpg'));
+img = double(imread('10.png'));
 
 L = 256;
 
